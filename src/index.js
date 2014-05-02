@@ -22,11 +22,13 @@ module.exports = function ( _fn, _callback, _interval, _timeout ) {
 			setTimeout( test, interval );
 		} else {
 			clearTimeout( timeoutId );
-			if ( result instanceof Error ) {
-				_callback( result );
-			} else {
-				_callback( null, result );
-			}
+			setTimeout( function () {
+				if ( result instanceof Error ) {
+					_callback( result );
+				} else {
+					_callback( null, result );
+				}
+			}, 0 );
 		}
 	};
 
