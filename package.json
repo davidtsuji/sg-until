@@ -1,6 +1,6 @@
 {
   "name": "sg-until",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Continuously call a function until it returns a truthy value",
   "main": "src/index.js",
   "scripts": {
