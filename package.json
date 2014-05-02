@@ -1,11 +1,15 @@
 {
 	"name": "sg-until",
 	"version": "0.0.0",
-	"description": "",
+	"description": "Continuously call a function until it returns a truthy value",
 	"main": "src/index.js",
 	"scripts": {
 		"test": "mocha",
 		"posttest": "mocha -R markdown > README.md"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davidtsuji/sg-until"
 	},
 	"author": "David Tsiuji",
 	"license": "MIT",
