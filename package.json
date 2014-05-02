@@ -1,0 +1,16 @@
+{
+	"name": "sg-until",
+	"version": "0.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "mocha",
+		"posttest": "mocha -R markdown > README.md"
+	},
+	"author": "David Tsiuji",
+	"license": "MIT",
+	"devDependencies": {
+		"should": "^3.3.1",
+		"mocha": "^1.18.2"
+	}
+}
